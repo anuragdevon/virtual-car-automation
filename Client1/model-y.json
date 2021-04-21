@@ -1,0 +1,77 @@
+[
+    {
+        "LIGHT": "683"
+    },
+    {
+        "LIGHT": "800"
+    },
+    {
+        "LIGHT": "60"
+    },
+    {
+        "LIGHT": "80"
+    },
+    {
+        "LIGHT": "0"
+    },
+    {
+        "PROXIMITY": "5"
+    },
+    {
+        "PROXIMITY": "0"
+    },
+    {
+        "PROXIMITY": "5"
+    },
+    {
+        "PROXIMITY": "0"
+    },
+    {
+        "PROXIMITY": "5"
+    },
+    {
+        "ACCELEROMETERX": "19.4170000553131104"
+    },
+    {
+        "ACCELEROMETERX": "8.187000036239624"
+    },
+    {
+        "ACCELEROMETERX": "9.187000036239624"
+    },
+    {
+        "ACCELEROMETERX": "6.340000033378601"
+    },
+    {
+        "ACCELEROMETERX": "5.9529999494552612"
+    },
+    {
+        "ORIENTATIONX": "23.9529999494552612"
+    },
+    {
+        "ORIENTATIONY": "5.0929999351501465"
+    },
+    {
+        "ORIENTATIONX": "131.9529999494552612"
+    },
+    {
+        "ORIENTATIONY": "5.0929999351501465"
+    },
+    {
+        "ORIENTATIONX": "1.9529999494552612"
+    },
+    {
+        "ORIENTATIONY": "15.0929999351501465"
+    },
+    {
+        "ORIENTATIONX": "255.9529999494552612"
+    },
+    {
+        "ORIENTATIONY": "10.0929999351501465"
+    },
+    {
+        "ORIENTATIONX": "0.9529999494552612"
+    },
+    {
+        "ORIENTATIONY": "5.0929999351501465"
+    }
+]
