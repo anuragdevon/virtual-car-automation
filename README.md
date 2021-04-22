@@ -21,6 +21,11 @@ Using Android-Mobile in-built Sensor, tried to simulate the netwokring of cars.
   - Using termux-sensor -l check all the available sensors.
   - Check for Light, Accelerometer, gyroscope, and Proximity sensor.
   - Using ` termux-sensor -s "SensorName" `, you can check the values, use `termux-sensor --help` to check more methods to display.
+  - Since android does not allow us to run executable files inside internal file system we need to copy the contents to termux home directory which is an emulatorm hence we can run executable files, run the following commands:
+    - ` termux-storage-setup`, this will grant access to internal storage.
+    - move to the directory where you have saved the files, check `pwd` and copy it.
+    - Come to home directory using ` cd ~/ `
+    - copy the files using ` cp -r /paste/the/directory/copied/ ~/destination `
   - Open client's bash script and chnage the sensors variables you want to use as mentioned above.
   - Make the bash executable using ` chmod +x model-s.sh  ` or ` chmod +x model-y.sh `
   - Run the script using ` ./model-y.sh ` or ` ./model-y.sh `
