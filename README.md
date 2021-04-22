@@ -27,7 +27,5 @@ Using Android-Mobile in-built Sensor, tried to simulate the netwokring of cars.
   - TO BE CONTINUED...
    
 ## ScreenShots:
-![demo1](./1.jpeg?raw=true "Hostel Management System")
-![demo2](./2.jpeg?raw=true "Hostel Management System")
-![demo3](./3.jpeg?raw=true "Hostel Management System")
-![demo4](./4.jpeg?raw=true "Hostel Management System")
+  - ![demo2](./2.jpeg?raw=true "Hostel Management System")
+  - ![demo4](./4.jpeg?raw=true "Hostel Management System")
