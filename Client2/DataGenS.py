@@ -1,4 +1,4 @@
-#!/bin/bash
+
 import json
 f = open('model-s.txt', 'r')
 content = f.readlines()
@@ -81,6 +81,6 @@ for Data in values:
         i+=1
     Flag += 1
 
-# JsonData = open("model-s.json", "w")
-# json.dump(Dataset, JsonData, indent=4, sort_keys=False)
-# JsonData.close()
+JsonData = open("model-s.json", "w")
+json.dump(Dataset, JsonData, indent=4, sort_keys=False)
+JsonData.close()

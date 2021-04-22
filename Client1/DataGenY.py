@@ -1,4 +1,4 @@
-#!/bin/bash
+
 import json
 f = open('model-y.txt', 'r')
 content = f.readlines()
@@ -81,6 +81,6 @@ for Data in values:
         i+=1
     Flag += 1
 
-# JsonData = open("modeL-y.json", "w")
-# json.dump(Dataset, JsonData, indent=4, sort_keys=False)
-# JsonData.close()
+JsonData = open("modeL-y.json", "w")
+json.dump(Dataset, JsonData, indent=4, sort_keys=False)
+JsonData.close()

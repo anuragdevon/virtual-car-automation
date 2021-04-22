@@ -3,6 +3,8 @@ import socket
 import time
 import sys
 import base64
+import requests
+import sqlite3
 
 LIGHT = []
 PROXIMITY = []
@@ -149,12 +151,25 @@ sock.close()
 print("Waiting for remote cloud to analyze the system...")
 midLoad()
 time.sleep(20)
-def Reciever():
-    Req = requests.get('https://api.thingspeak.com/channels/1365930/feeds.json?api_key=J5I5AHEWEZSHGMXE&results=2')
-    if Req.ok:
-        Information = Req.json().get('feeds')
-        return Information
-    else:
-        # unsucessfull termination
-        exit(1)
+db=sqlite3.connect('data.db')
+c=db.cursor()
+try:
+    c.execute('''CREATE TABLE proj(
+        accident real,
+        model-s real,
+        model-y real
+    )''')
+except:
+    pass
+
+for i in range(10):
+    r=requests.get('https://api.thingspeak.com/channels/1365930/feeds.json?api_key=J5I5AHEWEZSHGMXE&results=2')
+    data=tuple(r.json()['feeds'][0].values())[2:]
+    print(data)
+    c.execute('INSERT INTO proj VALUES (?,?,?)', data)
+    db.commit()
+    sleep(15)
+
+db.close()
+
 print("\nCopy of Feedback got from remote cloud analysis...\n")
