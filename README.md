@@ -6,7 +6,8 @@ Using Android-Mobile in-built Sensor, tried to simulate the netwokring of cars.
   - Termux version 0.101
   - Android version 7.0 or above
 ## Tags:
-
+[![Python](https://img.shields.io/badge/-Python-black?style=flat&logo=python&link=https://github.com/Anuragkar234)](https://github.com/Anuragkar234)
+[![Bash](https://img.shields.io/badge/-Bash-black?style=flat&logo=bash&link=https://github.com/Anuragkar234)](https://github.com/Anuragkar234)
 ## How to get stared:
   - Install Termux and Termux api using playstore in android.
   - Open Termux and update it through ` pkg apt update `
@@ -26,3 +27,7 @@ Using Android-Mobile in-built Sensor, tried to simulate the netwokring of cars.
   - TO BE CONTINUED...
    
 ## ScreenShots:
+![demo1](./1.jpeg?raw=true "Hostel Management System")
+![demo2](./2.jpeg?raw=true "Hostel Management System")
+![demo3](./3.jpeg?raw=true "Hostel Management System")
+![demo4](./4.jpeg?raw=true "Hostel Management System")
